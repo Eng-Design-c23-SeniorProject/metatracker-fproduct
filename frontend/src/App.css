@@ -1,0 +1,237 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #354666;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  font-size: xx-large;
+}
+.search-button {
+	display: inline-block;
+	font-weight: 400;
+	color: #212529;
+	text-align: center;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 20px;
+	line-height: 1.5;
+	border-radius: .25rem;
+	background-color: #89e9fa5f;
+  width: 100px;
+}
+.title {
+  flex: 1;
+  font-weight: 24px;
+  text-decoration: none;
+}
+.search-form {
+  display: flex;
+  align-items: center;
+}
+.search-form input {
+  margin-right: 10px;
+  padding: 5px;
+}
+/*remove default link styles*/
+a {
+  color: inherit;
+  text-decoration: none;
+}
+/*apply specific styles for hovered links*/
+a:hover {
+  color: #26c78c;
+  text-decoration: none;
+}
+/*main body styles #####*/
+.body {
+  display: grid;
+  grid-template-columns: 20% 79%;
+  gap: 10px;
+  padding: 0;
+  margin-top: 84px;
+  position: sticky;
+  top: 0;
+  height: auto;
+  min-height: 480px !important;
+  overflow-y: auto;
+  margin-bottom: 94px;
+}
+.grid1 {
+  background-color: #67777998;
+  padding: 10px;
+  margin-left: 0;
+}
+.grid1 ul {
+  list-style-type: none;
+  padding: 0;
+}
+.grid1 li {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.titletwo {
+  font-size: 22px;
+  background-color: #60b2c0;
+}
+.grid2 {
+  background-color: none;
+}
+hr {
+  border: 1px solid black;
+}
+.footer {
+  background-color: #2B3D5B;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/*design for how files are searched #####*/
+.allFileSearch {
+  padding: 20px;
+  background-color: #5960639d;
+  width: 90%;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: 2px solid #354666;
+}
+.inputplace {
+  width: 88%;
+  height: 40px;
+  border: 2px solid #354666;
+  border-radius: 5px;
+  font-size: 15px;
+  color: black;
+}
+.inputbutton {
+  margin-left: 1%;
+  width: 10%;
+  height: 46px;
+  border: 2px solid #354666;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: #89e9fa5f;
+}
+.inputbutton:hover {
+  color: #26c78c;
+}
+.searchMsg1 {
+  font-size: 20px;
+}
+/*increase the size of radio buttons*/
+.allFileSearch label {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.allFileSearch input[type="radio"] {
+  transform: scale(1.5);
+  margin-right: 5px;
+}
+.searchfound {
+  list-style-type: decimal;
+  font-size: 20px;
+}
+.filesDisplay {
+margin-left: 5%;
+margin-right: 5%;
+}
+.mediafdis {
+  width: 98%;
+  height: auto;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #5d6364;
+}
+.mediasumdis {
+  margin-top: 15px;
+  font-weight:bold ;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #67777998;
+}
+.textfdis {
+  width: 98%;
+  height: 750px;
+}
+.summaryCon {
+  margin-top: 15px;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #67777998;
+}
+.textfcon {
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+.downloadbtt {
+  margin-top: 15px;
+  width: 15%;
+  height: 46px;
+  border: 2px solid #354666;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: #89e9fa5f;
+}
+.downloadbtt:hover {
+  color: #26c78c;
+}
+.UploadTitle {
+  color: #173469;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+.uploadForm {
+  width: 40%;
+  height: 46px;
+  padding: 10px;
+  border: 3px solid #354666;
+  box-sizing: border-box;
+  background-color: #5960639d;
+  margin-left: 20%;
+  border-radius: 5px;
+}
+.uploadSubmit {
+  margin-top: 15px;
+  width: 10%;
+  height: 46px;
+  border: 3px solid #354666;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #89e9fa5f;
+  margin-left: 2%;
+}
+.uploadSubmit:hover {
+  color: #26c78c;
+}
+.uploadmsg {
+  margin-top: 15px;
+  color: black;
+  margin-left: 20%;
+  font-weight: bolder;
+}
+/* dashboard #####*/
+.vertical-line {
+  width: 1px;
+  height: 50px;
+  background-color: black;
+}
+.dashboard {
+  background-color: #7fc6c9be;
+  padding-left: 15px;
+  border: 4px solid navy;
+}
