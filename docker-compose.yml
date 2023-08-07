@@ -1,0 +1,22 @@
+version: '3'
+services:
+  backend:
+    image: python:3
+    ports:
+      - "5000:5000"
+    depends_on:
+      - mongo
+
+  frontend:
+    image: node:14
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - /my/mongodb/data:/data/db
